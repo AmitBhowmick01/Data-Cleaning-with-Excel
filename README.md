@@ -4,6 +4,7 @@ This project is a guide for data cleaning using Microsoft Excel. It covers basic
 
 ## Table of Contents
 - Introduction
+- Task performed
 - Prerequisites
 - Data Cleaning Techniques:
   - Remove rows with condition
@@ -14,6 +15,29 @@ This project is a guide for data cleaning using Microsoft Excel. It covers basic
 ## Introduction
 
 Data cleaning is the process of identifying, correcting, and removing errors, inconsistencies, and inaccuracies in datasets. It involves a series of steps such as data validation, data transformation, data normalization, and data enrichment to ensure that the data is accurate, complete, and consistent. The purpose of data cleaning is to improve the quality and reliability of data, making it more suitable for analysis, reporting, and decision-making. Data cleaning is a critical step in data preprocessing and is often performed before data analysis or machine learning algorithms are applied to the data.
+
+
+## Task performed
+
+The following assignment is given by `Unmassenger`. To perform the data-cleaning following tasks are given:
+
+**Task 1:** Where **Name and Email-Id** is missing delete the entire row.
+
+**Task 2:** Where **Name** is missing fill the value in place by extracting the name from the **Email-id column**.
+
+**Task 3:** Fill the Missing Age value with the **mean of the Age column**.
+
+**Task 4:** Clean and Format the Phone number column and it should show like (**91-xxxxxxxx**).
+
+**Task 5:** Where the Name is there but no Email-Id then fill the blank with (**support@dataisgood.com**).
+
+**Task 6:** Where address is not there fill it with (**Address not Available**).
+
+**Task 7:** In the **Department column** make the data proper with the useful functions and rename the Wrong-spelled words in the department column.
+
+**Task 8:** Highlight the **Top 10 Employees** with the highest salary in the dataset.
+
+**`These tasks are recorded in macro and can be checked within the Excel file attached to this repository.`**
 
 
 ## Prerequisites
@@ -73,3 +97,4 @@ Blank cells can cause errors in analysis. You can fill in blank cells with the f
 - Type in the value to fill in the blank cells.
 - Press Ctrl + Enter.
 
+___________________________________________________________________________________________________
