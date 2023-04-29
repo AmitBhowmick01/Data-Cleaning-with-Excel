@@ -10,7 +10,8 @@ This project is a guide for data cleaning using Microsoft Excel. It covers basic
   - Remove rows with condition
   - Clean and format columns
   - Fill in Blank Cells:
-  
+- Highlighting Rows with the Top 10 Highest Salary
+
   
 ## Introduction
 
@@ -96,5 +97,19 @@ Blank cells can cause errors in analysis. You can fill in blank cells with the f
 - Click OK.
 - Type in the value to fill in the blank cells.
 - Press Ctrl + Enter.
+
+### Highlighting Rows with the Top 10 Highest Salary
+
+To highlight the Top 10 Employee rows with the highest salary in the dataset, the following steps been followed:
+
+- Select the dataset in Excel.
+- Click on the "Home" tab in the ribbon and then click on "Conditional Formatting" in the "Styles" group.
+- Select "New Rule" from the drop-down menu.
+- In the "New Formatting Rule" dialog box, select "Use a formula to determine which cells to format."
+- In the "Format values where this formula is true" field, enter the following formula: =RANK.EQ($M7,$M:$M)<=10
+- This formula will highlight rows where the value in the Salary column is less than or equal to the 10th Rank in the column.
+- Click on the "Format" button and select the formatting style that you want to use to highlight the rows that match the criteria.
+- Click on "OK" to close the "New Formatting Rule" dialog box.
+- Now, all the 10 rows will be highlighted which have highest salary.
 
 ___________________________________________________________________________________________________
